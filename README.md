@@ -23,12 +23,7 @@ To use this code, follow these steps:
     conda activate meq-transformer
     ```
     
-3. **Conver voxel data to graph data:**
-    ```
-    python mapper_DFS.py --start_no 1 --end_no 2 --subcube 90 --cover_interval 20 --overlap 0.3
-    ```
-
-4. **Train the Model:**
+3. **Train the Model:**
     ```
     python train.py \
       --data_dir ./data/ --out_dir ./results/ --n_start 100 --n_future 5 \
@@ -42,11 +37,15 @@ To use this code, follow these steps:
 [EGS Collab experiment 1 microseismic monitoring data](https://gdr.openei.org/submissions/1166)
 
 ## Citation
-If you use this work or code in your research, please consider citing our [paper](https://assets-eu.researchsquare.com/files/rs-5575976/v1_covered_19350d20-56b2-4ba6-97d4-f07e9ba0745d.pdf?c=1734927128):
+If you use this work or code in your research, please consider citing our [paper](https://arxiv.org/abs/2506.14923):
 
-    @article{hu2024forecasting,
-        title={Forecasting the spatiotemporal evolution of fluid-induced microearthquakes with deep learning},
-        author={Hu, Meng-Su and Chung, Jaehong and Manga, Michael and Kneafsey, Timothy and Mukerji, Tapan},
-        year={2024}
+    @misc{chung2025forecastingspatiotemporalevolutionfluidinduced,
+      title={Forecasting the spatiotemporal evolution of fluid-induced microearthquakes with deep learning}, 
+      author={Jaehong Chung and Michael Manga and Timothy Kneafsey and Tapan Mukerji and Mengsu Hu},
+      year={2025},
+      eprint={2506.14923},
+      archivePrefix={arXiv},
+      primaryClass={physics.geo-ph},
+      url={https://arxiv.org/abs/2506.14923}, 
     }
    
