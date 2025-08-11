@@ -1,4 +1,4 @@
-# Forecasting the spatiotemporal evolution of fluid-induced microearthquakes with deep learning
+# Deep learning forecasts the spatiotemporal evolution of fluid-induced microearthquakes
 
 ![Workflow](./readme_figs/architecture.png)
 *Architecture of the transformer-based MEQ forecasting model.*
@@ -42,13 +42,13 @@ To use this code, follow these steps:
 ## Citation
 If you use this work or code in your research, please consider citing our [paper](https://arxiv.org/abs/2506.14923):
 
-    @misc{chung2025forecastingspatiotemporalevolutionfluidinduced,
-      title={Forecasting the spatiotemporal evolution of fluid-induced microearthquakes with deep learning}, 
-      author={Jaehong Chung and Michael Manga and Timothy Kneafsey and Tapan Mukerji and Mengsu Hu},
+    @article{chung2025deep,
+      title={Deep learning forecasts the spatiotemporal evolution of fluid-induced microearthquakes},
+      author={Chung, Jaehong and Manga, Michael and Kneafsey, Timothy and Mukerji, Tapan and Hu, Mengsu},
+      journal={Communications Earth \& Environment},
+      volume={6},
+      number={1},
+      pages={643},
       year={2025},
-      eprint={2506.14923},
-      archivePrefix={arXiv},
-      primaryClass={physics.geo-ph},
-      url={https://arxiv.org/abs/2506.14923}, 
+      publisher={Nature Publishing Group UK London}
     }
-   
