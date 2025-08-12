@@ -40,7 +40,7 @@ To use this code, follow these steps:
 [EGS Collab experiment 1 microseismic monitoring data](https://gdr.openei.org/submissions/1166)
 
 ## Citation
-If you use this work or code in your research, please consider citing our [paper](https://arxiv.org/abs/2506.14923):
+If you use this work or code in your research, please consider citing our [paper](https://www.nature.com/articles/s43247-025-02644-z):
 
     @article{chung2025deep,
       title={Deep learning forecasts the spatiotemporal evolution of fluid-induced microearthquakes},
